@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Auth from './pages/auth'
+import Auth from './pages/Auth'
 import About from './pages/About'
 import { useEffect } from 'react'
 import axios from 'axios'
@@ -14,7 +14,7 @@ import InterviewReport from './pages/InterviewReport'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-export const ServerUrl  = "http://localhost:8000"
+export const ServerUrl  = "https://careersaathi-l8lj.onrender.com"
 
 function App() {
 
